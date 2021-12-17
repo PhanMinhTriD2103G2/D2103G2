@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+* {  box-sizing: border-box;}
+.container{ width: 1170px;margin: auto}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+	/*border:1px solid red*/
+  
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.clearboth{ clear:both; height: 0}
+/*-------------- THU VIEN STYLE KIEU FLEX---------------*/
+.d-flex{ display: flex}
+.justify-content-center{justify-content:center}
+.justify-content-start{justify-content:flex-start}
+.justify-content-end{justify-content: flex-end}
+.justify-content-around{justify-content:space-around}
+.justify-content-between{justify-content:space-between}
+.verticle-center-flex{ align-items: center}
+.verticle-top-flex{ align-items:flex-start}
+.verticle-bottom-flex{ align-items:flex-end}
+.verticle-stretch-flex{   align-items: stretch}
+.flex-wrap{flex-wrap: wrap}
+.flex-nowrap{flex-wrap: nowrap}
+.flex-direction-thuan{ flex-direction: row}
+.flex-direction-nguoc{ flex-direction: row-reverse}
+/*-----------------------------------*/
+a{ color: #000; text-decoration: none}
+a:hover{color: #c65e3b}
+p{line-height: 1.5em}
+li{ padding: 10px 0}
+.float-left{ float: left}
+.float-right{ float:right}
+.text-right{ text-align: right}
+.text-center{ text-align: center}
+.center-block{margin: auto; float: none}
+.bg-primary{ background: #393937!important}
+.text-primary{ color: #393937}
+.text-normal{color: #000}
+.bg-secondary{background: #c65e3b}
+.bg-nen{background: #F1F7EF}
+.bg-tintuc{background: #F8FAF5}
+.bg-light{ background: #fff}
+.text-secondary{ color: #c65e3b}
+.text-light{ color:#fff}
+.p-0{padding:0 0px}
+.p-5{padding:0 5px}
+.p-15{padding: 15px}
+.p-20{padding: 0px 20px}
+.p-50{padding: 50px}
+.p-40{padding: 40px 0}
+.mx-10{margin:0 10px}.my-10{margin:10px 0}
+.mr-10{ margin-right: 10px}.ml-10{ margin-left: 10px}
+.m-0{margin: 0}
+.pr-10{ padding-right: 10px}.pl-10{ padding-left: 10px}
+.pt-10{ padding-top: 10px}.pb-50{ padding-bottom: 50px}
+.py-10{ padding: 10px 0}.px-10{ padding: 0 10px}
+.py-50{ padding: 50px 0}
+/*-- style cho button----------*/
+.btn-secondary{background: #c65e3b; padding: 10px 15px; border: none; color: #fff; cursor: pointer; border-radius: 5px}
+.btn-secondary:hover{background:#fff; color: #393937}
+.btn-primary{background:#393937; padding: 10px 15px; border: none; color: #fff; cursor: pointer;border-radius: 5px}
+.btn-primary-vuong{background:#393937; padding: 10px 15px; border: none; color: #fff; cursor: pointer}
+.btn-primary:hover{background:#c65e3b; color: #393937}
+/*-----------------------------*/
+.border-bottom-secondary{ border-bottom: 1px solid #c65e3b; padding-left: 5px}
+.border-bottom-primary{ border-bottom-color: 1px solid #393937;}
+/*------------------------*/
+.img-fluid{max-width: 100%; height: auto}
+.img-rounded{ border-radius: 50%}
+.w-100{ width: 100%}
+.h-100{height: 300px; width: auto}
+.form-control{ width: 80%; float: left; border: 1px solid #eee; padding: 10px; display: inline}
+.mot-hang{display: inline}
+section{ margin: 50px 0; padding:50px 0 }

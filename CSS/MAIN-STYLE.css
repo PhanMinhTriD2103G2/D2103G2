@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+body{ background-color: #F4F3F3; font-family: 'Roboto', sans-serif; font-size: 16px; color: #777; margin: 0}
+ul.menu-top,ul.menu-top ul{list-style: none; margin: 0; padding: 0}
+ul.menu-top li{float: left; position: relative}
+ul.menu-top li a{padding: 10px 15px;display: block; color: #666666}
+ul.menu-top li a:hover{background: #393937;color: #fff}
+/*style menu con-------------*/
+ul.menu-top ul{ background: #393937;display: block;display: none; position: absolute; left: 0;top: 100%;width: 250px/*hoac dung 200%*/}
+ul.menu-top ul li{float: none}
+ul.menu-top ul li a{color: #fff;border-bottom: 2px solid}
+ul.menu-top ul li a:hover{background: #c65e3b}
+ul.menu-top li:hover >ul{display: block}
+.aside-menu a{display: block;padding: 5px 15px; background-image: url(../IMAGES/.png);background-repeat: no-repeat;background-position: left center}
+.aside-menu a:hover{display: block;padding: 5px 15px; background-image: url(../IMAGES/MT-VANG.png);background-repeat: no-repeat;background-position: left center}
+.td-trang{background-image: url("../IMAGES/Haikyuu-ket-thuc-1-game4v.png");background-repeat: no-repeat; background-position: center; height: 250px}
+.hinhnen{background-image: url("../IMAGES/ba67ac4017ab45f98d35fe158ce36da6.png");background-repeat: no-repeat; background-position: center; background-size: 100%;}
+main{min-height: 500px}
+.icon-mten{list-style-image: url(../IMAGES/.png);padding: 20px}
+.icon-mten li{padding: 10px 0}
+.input-search{width: 80%; background: #fff}
+.input-search,btn-search{padding: 8px 15px;display: inline-block}
+.center-block{margin: auto;display: block}
+.w50-center{width: 50%; margin: auto}
+.f-input{padding: 10px 15px; border: 1px #ccc; float: left;width: 70%}
+footer h3{margin-bottom: 5px}
+.menu-footer a{color:#fff;display: block;padding: 5px}
+.menu-footer a:hover{color: #c65e3b}
+.menu-mid a{color:#777;display: block;padding: 5px}
+.menu-mid a:hover{color: #393937}
+.font-lagre{font-size:20px}
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 3px solid #393937;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+div.transbox p {
+  margin: 5;
+  font-weight: bold;
+  color: #000000;
+}
